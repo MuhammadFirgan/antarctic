@@ -4,8 +4,8 @@ import React from 'react'
 
 export default function navbar() {
   return (
-    <nav className='flex justify-center w-full h-16'>
-      <div className='flex justify-between w-full max-w-screen  px-7 sm:rounded-b-xl sm:shadow-lg sm:px-10'>
+    <nav className='flex justify-center w-full h-16 fixed sm:top-0 sm:left-0 sm:right-0'>
+      <div className='flex justify-between w-full max-w-screen  px-7  sm:rounded-b-xl sm:shadow-lg sm:px-10'>
         <Link href='/'>
           <Image src='/img/logo.png' width={60} height={60} alt='Antarctic logo' />
         </Link>

@@ -34,7 +34,7 @@ export default function Main() {
 
   return (
    
-    <main className="mt-12  sm:mt-20 bg-blue-400 relative overflow-hidden">      
+    <main className="mt-12  sm:mt-20 bg-white relative overflow-hidden">      
       <Home />
       <Service />
       

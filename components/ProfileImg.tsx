@@ -9,7 +9,7 @@ interface Props {
 
 export default function ProfileImg({ source, name, job, layout } : Props) {
   return (
-    <figure>
+    <figure className=''>
         <Image src={`/img/${source}`} width={150} height={70} alt="profile image" className={layout} />
         <div className="flex flex-col items-center">
 

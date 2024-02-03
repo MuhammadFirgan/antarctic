@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="px-7 bg-white rounded-t-[80px]">
+    <div className="px-7 bg-blue-400 rounded-t-[80px] shadow-xl text-white" id='contact'>
         <div className='py-9 flex flex-col justify-center items-center text-center'>
 
           <h1 className="text-xl font-semibold sm:text-3xl">Contact Us</h1>
-          <div className="w-24 h-1 bg-black my-1"></div>
+          <div className="w-24 h-1 bg-white my-1"></div>
         </div>
         <div className="flex flex-wrap justify-evenly items-center gap-4">
           <div className="text-center">
