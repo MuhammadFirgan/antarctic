@@ -25,10 +25,10 @@ export default function navbar() {
             <Link href='/'>Home</Link>
           </li>
           <li>
-            <Link href='/'>Project</Link>
+            <Link href='#project'>Project</Link>
           </li>
           <li>
-            <Link href='/'>Contact</Link>
+            <Link href='#contact'>Contact</Link>
           </li>
           
         </ul>
@@ -41,13 +41,13 @@ export default function navbar() {
             </Link>
           </li>
           <li>
-            <Link href='/' className='flex flex-col items-center'>
+            <a href='#project' className='flex flex-col items-center'>
               <i className="ri-code-box-line"></i>
               <span className='text-sm'>Project</span>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href='/' className='flex flex-col items-center'>
+            <Link href='#contact' className='flex flex-col items-center'>
               <i className="ri-phone-fill"></i>
               <span className='text-sm'>Contact</span>
             </Link>

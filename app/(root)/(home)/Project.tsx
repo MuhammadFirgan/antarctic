@@ -10,7 +10,7 @@ import {
   
 export default function Project() {
     return (
-        <div className="pt-24">
+        <div className="pt-24" id="project">
             <div className='flex flex-col justify-center items-center text-center bg-white py-24 px-10 '>
 
                 <h1 className="text-xl font-semibold sm:text-3xl">Our Project</h1>
